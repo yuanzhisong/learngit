@@ -88,6 +88,7 @@ int main()
 	}
 	printf("当前链表内数字\n");
 	print();
+        printf("输入命令1：查询数字位置\n输入命令2：增加数字\n输入命令3：删除数字\n");
 	printf("请输入命令数字(1-3):");
 	scanf("%d",&a);
 	switch(a){
